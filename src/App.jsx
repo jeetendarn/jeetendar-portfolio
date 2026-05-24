@@ -8,6 +8,11 @@ import Certifications from "./sections/Certifications"
 import Contact from "./sections/Contact"
 import Stats from "./sections/Stats"
 import GithubStats from "./sections/GithubStats"
+import Impact from "./sections/Impact"
+import CurrentlyBuilding from "./sections/CurrentlyBuilding"
+import Achievements from "./sections/Achievements"
+import Terminal from "./sections/Terminal"
+
 import Footer from "./components/Footer"
 
 function App() {
@@ -22,8 +27,13 @@ function App() {
       <Experience />
       <Certifications />
       <Contact />
+      <CurrentlyBuilding />
+      <Impact />
       <GithubStats />
+      <Achievements />
+      <Terminal />
       <Footer />
+      
     </div>
   )
 }
